@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E0444042B2158BE008739A8 /* EmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0444032B2158BE008739A8 /* EmployeeViewModel.swift */; };
+		6EACF1D62B24E91D0074B897 /* EmployeeApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACF1D52B24E91D0074B897 /* EmployeeApiServices.swift */; };
+		6EACF1DA2B24F03D0074B897 /* EmployeeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACF1D92B24F03D0074B897 /* EmployeeRow.swift */; };
+		6EACF1E12B24F22A0074B897 /* DataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACF1E02B24F22A0074B897 /* DataCache.swift */; };
+		6EACF1E32B24F3A20074B897 /* EmployeeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EACF1E22B24F3A20074B897 /* EmployeeDetailView.swift */; };
+		6EE0E0252B200C030013A2F0 /* CyrusEmployeeHRAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0E0242B200C030013A2F0 /* CyrusEmployeeHRAppApp.swift */; };
+		6EE0E0272B200C030013A2F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0E0262B200C030013A2F0 /* ContentView.swift */; };
+		6EE0E0292B200C040013A2F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE0E0282B200C040013A2F0 /* Assets.xcassets */; };
+		6EE0E02C2B200C040013A2F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE0E02B2B200C040013A2F0 /* Preview Assets.xcassets */; };
+		6EE0E0332B200DB70013A2F0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0E0322B200DB70013A2F0 /* OnboardingView.swift */; };
+		6EE0E0372B201D1E0013A2F0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0E0362B201D1E0013A2F0 /* HomeView.swift */; };
+		6EE0E0392B201D280013A2F0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0E0382B201D280013A2F0 /* SettingsView.swift */; };
+		6EE0E03C2B2021180013A2F0 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0E03B2B2021180013A2F0 /* Employee.swift */; };
+		6EE0E0442B20292F0013A2F0 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0E0432B20292F0013A2F0 /* SettingsModel.swift */; };
+		6EE0E0462B2029420013A2F0 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0E0452B2029420013A2F0 /* SettingsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E0444032B2158BE008739A8 /* EmployeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
+		6EACF1D52B24E91D0074B897 /* EmployeeApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeApiServices.swift; sourceTree = "<group>"; };
+		6EACF1D92B24F03D0074B897 /* EmployeeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeRow.swift; sourceTree = "<group>"; };
+		6EACF1E02B24F22A0074B897 /* DataCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCache.swift; sourceTree = "<group>"; };
+		6EACF1E22B24F3A20074B897 /* EmployeeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailView.swift; sourceTree = "<group>"; };
+		6EE0E0212B200C030013A2F0 /* CyrusEmployeeHRApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyrusEmployeeHRApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE0E0242B200C030013A2F0 /* CyrusEmployeeHRAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyrusEmployeeHRAppApp.swift; sourceTree = "<group>"; };
+		6EE0E0262B200C030013A2F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6EE0E0282B200C040013A2F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EE0E02B2B200C040013A2F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EE0E0322B200DB70013A2F0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		6EE0E0362B201D1E0013A2F0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6EE0E0382B201D280013A2F0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6EE0E03B2B2021180013A2F0 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		6EE0E0432B20292F0013A2F0 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		6EE0E0452B2029420013A2F0 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EE0E01E2B200C030013A2F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EACF1D42B24E8B30074B897 /* ApiHandler */ = {
+			isa = PBXGroup;
+			children = (
+				6EACF1D52B24E91D0074B897 /* EmployeeApiServices.swift */,
+			);
+			path = ApiHandler;
+			sourceTree = "<group>";
+		};
+		6EACF1D72B24EAAC0074B897 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6E0444032B2158BE008739A8 /* EmployeeViewModel.swift */,
+				6EE0E0452B2029420013A2F0 /* SettingsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6EACF1DB2B24F18F0074B897 /* CacheHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6EACF1E02B24F22A0074B897 /* DataCache.swift */,
+			);
+			path = CacheHelper;
+			sourceTree = "<group>";
+		};
+		6EE0E0182B200C030013A2F0 = {
+			isa = PBXGroup;
+			children = (
+				6EE0E0232B200C030013A2F0 /* CyrusEmployeeHRApp */,
+				6EE0E0222B200C030013A2F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EE0E0222B200C030013A2F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0E0212B200C030013A2F0 /* CyrusEmployeeHRApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EE0E0232B200C030013A2F0 /* CyrusEmployeeHRApp */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0E0242B200C030013A2F0 /* CyrusEmployeeHRAppApp.swift */,
+				6EE0E0262B200C030013A2F0 /* ContentView.swift */,
+				6EE0E03A2B2020F90013A2F0 /* Models */,
+				6EE0E0352B201D0E0013A2F0 /* Views */,
+				6EACF1D72B24EAAC0074B897 /* ViewModel */,
+				6EACF1D42B24E8B30074B897 /* ApiHandler */,
+				6EACF1DB2B24F18F0074B897 /* CacheHelper */,
+				6EE0E0342B200DD20013A2F0 /* OnBoarding */,
+				6EE0E0282B200C040013A2F0 /* Assets.xcassets */,
+				6EE0E02A2B200C040013A2F0 /* Preview Content */,
+			);
+			path = CyrusEmployeeHRApp;
+			sourceTree = "<group>";
+		};
+		6EE0E02A2B200C040013A2F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0E02B2B200C040013A2F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6EE0E0342B200DD20013A2F0 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0E0322B200DB70013A2F0 /* OnboardingView.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		6EE0E0352B201D0E0013A2F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0E0362B201D1E0013A2F0 /* HomeView.swift */,
+				6EE0E0382B201D280013A2F0 /* SettingsView.swift */,
+				6EACF1D92B24F03D0074B897 /* EmployeeRow.swift */,
+				6EACF1E22B24F3A20074B897 /* EmployeeDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6EE0E03A2B2020F90013A2F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6EE0E03B2B2021180013A2F0 /* Employee.swift */,
+				6EE0E0432B20292F0013A2F0 /* SettingsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EE0E0202B200C030013A2F0 /* CyrusEmployeeHRApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE0E02F2B200C040013A2F0 /* Build configuration list for PBXNativeTarget "CyrusEmployeeHRApp" */;
+			buildPhases = (
+				6EE0E01D2B200C030013A2F0 /* Sources */,
+				6EE0E01E2B200C030013A2F0 /* Frameworks */,
+				6EE0E01F2B200C030013A2F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CyrusEmployeeHRApp;
+			productName = CyrusEmployeeHRApp;
+			productReference = 6EE0E0212B200C030013A2F0 /* CyrusEmployeeHRApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EE0E0192B200C030013A2F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6EE0E0202B200C030013A2F0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 6EE0E01C2B200C030013A2F0 /* Build configuration list for PBXProject "CyrusEmployeeHRApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EE0E0182B200C030013A2F0;
+			productRefGroup = 6EE0E0222B200C030013A2F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EE0E0202B200C030013A2F0 /* CyrusEmployeeHRApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EE0E01F2B200C030013A2F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE0E02C2B200C040013A2F0 /* Preview Assets.xcassets in Resources */,
+				6EE0E0292B200C040013A2F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EE0E01D2B200C030013A2F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EACF1E12B24F22A0074B897 /* DataCache.swift in Sources */,
+				6EACF1D62B24E91D0074B897 /* EmployeeApiServices.swift in Sources */,
+				6EACF1DA2B24F03D0074B897 /* EmployeeRow.swift in Sources */,
+				6EE0E0392B201D280013A2F0 /* SettingsView.swift in Sources */,
+				6EE0E03C2B2021180013A2F0 /* Employee.swift in Sources */,
+				6EE0E0332B200DB70013A2F0 /* OnboardingView.swift in Sources */,
+				6EE0E0372B201D1E0013A2F0 /* HomeView.swift in Sources */,
+				6EE0E0272B200C030013A2F0 /* ContentView.swift in Sources */,
+				6EE0E0442B20292F0013A2F0 /* SettingsModel.swift in Sources */,
+				6EE0E0252B200C030013A2F0 /* CyrusEmployeeHRAppApp.swift in Sources */,
+				6EACF1E32B24F3A20074B897 /* EmployeeDetailView.swift in Sources */,
+				6E0444042B2158BE008739A8 /* EmployeeViewModel.swift in Sources */,
+				6EE0E0462B2029420013A2F0 /* SettingsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6EE0E02D2B200C040013A2F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EE0E02E2B200C040013A2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EE0E0302B200C040013A2F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CyrusEmployeeHRApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 48DM8Z5V5V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakya.CyrusEmployeeHRApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EE0E0312B200C040013A2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CyrusEmployeeHRApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 48DM8Z5V5V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakya.CyrusEmployeeHRApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EE0E01C2B200C030013A2F0 /* Build configuration list for PBXProject "CyrusEmployeeHRApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE0E02D2B200C040013A2F0 /* Debug */,
+				6EE0E02E2B200C040013A2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE0E02F2B200C040013A2F0 /* Build configuration list for PBXNativeTarget "CyrusEmployeeHRApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE0E0302B200C040013A2F0 /* Debug */,
+				6EE0E0312B200C040013A2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EE0E0192B200C030013A2F0 /* Project object */;
+}
